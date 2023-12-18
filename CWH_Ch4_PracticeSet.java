@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //import java.util.Scanner;
 public class CWH_Ch4_PracticeSet {
     public static void main(String[] args) {
@@ -44,7 +46,8 @@ public class CWH_Ch4_PracticeSet {
 //        }
 
 //--------------QUESTION 3-----------------------------------------------//
-//        int day = 5 ;
+//        Scanner sc = new Scanner(System.in);
+//        int day = sc.nextInt();
 //
 //        if (day == 1) {
 //            System.out.println("It's Monday");
@@ -72,17 +75,47 @@ public class CWH_Ch4_PracticeSet {
 //        }
 
 //--------------QUESTION 3 (Switch case var)
-        int today = 1;
-
-        switch (today) {
-            case 1 -> System.out.println("It's Monday");
-            case 2 -> System.out.println("It's Tuesday");
-            case 3 -> System.out.println("It's Wednesday");
-            case 4 -> System.out.println("It's Thursday");
-            case 5 -> System.out.println("It's Friday");
-            case 6 -> System.out.println("It's Saturday");
-            case 7 -> System.out.println("It's Sunday");
-            default -> System.out.println("Holiday!");
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int today = sc.nextInt();
+//
+//        switch (today) {
+//            case 1:
+//                System.out.println("It's Monday");
+//                break;
+//            case 2:
+//                System.out.println("It's Tuesday");
+//                break;
+//            case 3:
+//                System.out.println("It's Wednesday");
+//                break;
+//            case 4:
+//                System.out.println("It's Thursday");
+//                break;
+//            case 5:
+//                System.out.println("It's Friday");
+//                break;
+//            case 6:
+//                System.out.println("It's Saturday");
+//                break;
+//            case 7:
+//                System.out.println("It's Sunday");
+//                break;
+//            default:
+//                System.out.println("Holiday!");
+//        }
+//--------------QUESTION 3 (Enhanced switch case var)
+//        Scanner sc = new Scanner(System.in);
+//        int today = sc.nextInt();
+//
+//        switch (today) {
+//            case 1 -> System.out.println("It's Monday");
+//            case 2 -> System.out.println("It's Tuesday");
+//            case 3 -> System.out.println("It's Wednesday");
+//            case 4 -> System.out.println("It's Thursday");
+//            case 5 -> System.out.println("It's Friday");
+//            case 6 -> System.out.println("It's Saturday");
+//            case 7 -> System.out.println("It's Sunday");
+//            default -> System.out.println("Holiday!");
+//        }
     }
 }
