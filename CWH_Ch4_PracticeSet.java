@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 public class CWH_Ch4_PracticeSet {
     public static void main(String[] args) {
 //--------------QUESTION 1-----------------------------------------------//
@@ -23,25 +23,52 @@ public class CWH_Ch4_PracticeSet {
 //            System.out.println("You failed!");
 
 //--------------QUESTION 2-----------------------------------------------//
+//
+//        Scanner income = new Scanner(System.in);
+//        System.out.println("Enter your income: ");
+//        float userSlab = income.nextFloat();
+//
+//        if (userSlab < 250000) {
+//            System.out.println("You have no tax.");
+//        } else if (250000 <= userSlab && userSlab < 500000) {
+//            System.out.println("You have a tax of 5%, which is $" + (userSlab * 0.05));
+//
+//        } else if (500000 <= userSlab && userSlab <= 999999) {
+//            System.out.println("You have a tax of 20%, which is $" + (userSlab * 0.2));
+//
+//        } else if (userSlab >= 1000000) {
+//            System.out.println("You have a tax of 30%, which is $" + (userSlab * 0.3));}
+//
+//        else{
+//            System.out.println("Invalid");
+//        }
 
-        Scanner income = new Scanner(System.in);
-        System.out.println("Enter your income: ");
-        float userSlab = income.nextFloat();
+//--------------QUESTION 3-----------------------------------------------//
+        int day = 5 ;
 
-        if (userSlab < 250000) {
-            System.out.println("You have no tax.");
-        } else if (250000 <= userSlab && userSlab < 500000) {
-            System.out.println("You have a tax of 5%, which is $" + (userSlab * 0.05));
+        if (day == 1) {
+            System.out.println("It's Monday");
 
-        } else if (500000 <= userSlab && userSlab <= 999999) {
-            System.out.println("You have a tax of 20%, which is $" + (userSlab * 0.2));
+        } else if (day == 2) {
+            System.out.println("It's Tuesday");
 
-        } else if (userSlab >= 1000000) {
-            System.out.println("You have a tax of 30%, which is $" + (userSlab * 0.3));}
+        } else if (day == 3) {
+            System.out.println("It's Wednesday");
 
-        else{
-            System.out.println("Invalid");
+        } else if (day == 4) {
+            System.out.println("It's Thursday");
+
+        } else if (day == 5) {
+            System.out.println("It's Friday");
+
+        } else if (day == 6) {
+            System.out.println("It's Saturday");
+
+        } else if (day == 7) {
+            System.out.println("It's Sunday");
+
+        } else {
+            System.out.println("Holiday!");
         }
     }
 }
-
